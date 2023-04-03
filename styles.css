@@ -1,0 +1,74 @@
+.main-header {
+    background-color: #e6dfad;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo {
+    width: 60px;
+}
+
+body {
+    background-color: #e9f2ab;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navigation {
+    background-color: #202912;
+    color: #e6dfad;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.navigation a {
+    color: inherit;
+    text-decoration: none;
+    padding: 0.8em;
+    display: inline-block;
+    font-size: 1.1em;
+}
+
+.navigation a:hover {
+    background-color: #f7f780fc;
+    color: black;
+}
+
+.banner {
+    background-color: lightblue;
+    min-height: 50vh;
+    background-image: url("assets/banner/sashi-shrestha-_5-GEPZoza4-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-text {
+    /* max-width: 50%;
+    margin: auto;
+    padding-top: 20vh; */
+    color: white;
+}
+
+.banner-text h1 {
+    font-size: 3em;
+    text-align: center;
+    /* text-shadow: x-offset y-offset blur shadowcolor */
+    text-shadow: 0pt 0pt 1pt black;
+    font-family: 'Lobster', cursive;
+}
+
+.banner-text a {
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    margin: auto;
+    max-width: 20ch;
+    text-align: center;
+}
