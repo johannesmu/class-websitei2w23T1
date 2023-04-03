@@ -72,3 +72,28 @@ body {
     max-width: 20ch;
     text-align: center;
 }
+.main-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+}
+.social a {
+    font-size: 2em;
+    color: black;
+    padding: 0.5em;
+}
+.social a:hover {
+    background-color: white;
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+img {
+    max-width: 100%;
+}
