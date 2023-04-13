@@ -1,5 +1,15 @@
+:root {
+    /* CSS HSL */
+--mindaro: hsla(78, 100%, 74%, 1);
+--raw-umber: hsla(21, 27%, 45%, 1);
+--fern-green: hsla(128, 26%, 40%, 1);
+--melon: hsla(0, 92%, 85%, 1);
+--non-photo-blue: hsla(189, 82%, 82%, 1);
+--main-font: 'Open Sans', sans-serif;
+}
+
 .main-header {
-    background-color: #e6dfad;
+    background-color: var(--mindaro);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -10,9 +20,9 @@
 }
 
 body {
-    background-color: #e9f2ab;
+    background-color: var(--melon);
     margin: 0px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--main-font);
 }
 
 .navigation {
