@@ -15,4 +15,8 @@
     .banner-text h1 {
         font-size: 2em;
     }
+    .content {
+        grid-template-columns: 1fr;
+        margin: 2rem 0.5rem;
+    }
 }
