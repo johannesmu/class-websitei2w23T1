@@ -115,3 +115,34 @@ img {
     object-position: center;
     min-width: 100%;
 }
+#contact-form {
+    max-width: 500px;
+    margin: 4rem auto;
+}
+#contact-form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#contact-form .input {
+    min-width: 100%;
+    padding: 0.5rem;
+    border: solid 0.1rem var(--fern-green);
+    box-sizing: border-box;
+}
+#contact-form .input:focus {
+    outline: dashed 0.2rem var(--raw-umber);
+}
+#contact-form .buttons-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#contact-form .button {
+    background-color: var(--fern-green);
+    padding: 0.5rem;
+    color: var(--non-photo-blue);
+    min-width: 10rem;
+    border: solid 0.1rem var(--fern-green);
+}

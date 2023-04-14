@@ -1,1 +1,68 @@
-Hey it's the contact page
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- head is for metadata -->
+    <title>Contact Us</title>
+    <link rel="icon" href="assets/icon/img_159611.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <meta name="author" content="johannes">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- body is for page content -->
+    <header class="main-header">
+        <a href="index.html">
+            <img class="logo" src="assets/logo/151964551575087125-500x500.png">
+        </a>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    <main class="contact">
+        <form id="contact-form" method="post" action="https://example.com/form">
+            <h2>Contact us</h2>
+            <label for="user-name">Your name</label>
+            <input class="input" id="user-name" type="text" name="user-name" placeholder="James Smith">
+            <label for="user-email">Your email</label>
+            <input class="input" id="user-email" type="email" name="user-email" placeholder="james@example.com">
+            <label for="user-message">Message</label>
+            <textarea class="input" rows="5" cols="30" id="user-message" name="user-message" placeholder="Hello there!"></textarea>
+            <div class="buttons-row">
+                <button class="button" type="reset">Cancel</button>
+                <button class="button" type="submit">Send</button>
+            </div>
+        </form>
+    </main>
+    <footer class="main-footer">
+        <nav class="social">
+            <a href="https://facebook.com">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="https://twitter.com">
+                <i class="fa-brands fa-square-twitter"></i>
+            </a>
+            <a href="https://instagram.com">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="https://linkedin.com">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
