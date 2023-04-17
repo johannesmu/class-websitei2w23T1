@@ -146,3 +146,8 @@ img {
     min-width: 10rem;
     border: solid 0.1rem var(--fern-green);
 }
+.contact-page {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
