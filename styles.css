@@ -151,3 +151,16 @@ img {
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
 }
+.contact {
+    margin: 0px 1em;
+}
+.nav-button {
+    width: 48px;
+    height: 48px;
+    margin: 0.5em;
+    border: solid 1px var(--fern-green);
+    border-radius: 6px;
+    font-size:28px ;
+    background-color: transparent;
+    display: none;
+}
