@@ -167,9 +167,20 @@ img {
 
 /* carousel */
 .slide {
-    min-height: 40vh;
+    min-height: 50vh;
     background-color: var(--raw-umber);
     display: grid;
     place-items: center;
     min-width: 100%;
+}
+
+/* about page */
+.about-page {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+.about-content {
+    margin: 4rem 2rem;
 }
