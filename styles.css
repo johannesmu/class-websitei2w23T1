@@ -45,6 +45,10 @@ body {
     color: var(--non-photo-blue);
 }
 
+.navigation .active {
+    font-weight: bold;
+}
+
 .banner {
     background-color: lightblue;
     min-height: 50vh;
