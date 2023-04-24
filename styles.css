@@ -170,10 +170,32 @@ img {
     min-height: 50vh;
     background-color: var(--raw-umber);
     display: grid;
-    place-items: center;
+    place-items: end center;
     min-width: 100%;
+    aspect-ratio: 16/6;
+    background-size: cover;
+    background-position: center;
 }
-
+.slide h3 {
+    background-color: var(--non-photo-blue);
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    min-width: 30%;
+    text-align: center;
+}
+.one {
+    background-image: url("assets/slides/marcus-ganahl-dwl6sKsurjY-unsplash.jpeg");
+}
+.two {
+    background-image: url("assets/slides/roman-davydko-wobvkaMje4k-unsplash.jpeg");
+}
+.three {
+    background-image: url("assets/slides/vitalii-khodzinskyi-7WEi1kpLJYM-unsplash.jpeg");
+}
+.four {
+    background-image: url("assets/slides/zetong-li-G_z1TWdt1RM-unsplash.jpeg");
+}
 /* about page */
 .about-page {
     min-height: 100vh;
